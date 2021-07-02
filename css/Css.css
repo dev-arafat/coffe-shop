@@ -1,0 +1,118 @@
+.{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+ header{
+	 width:100%;
+	 height:100vh;
+    background-image:linear-gradient(
+	  rgba(97,47,18,0.692),
+	   rgba(97,47,18,0.692)
+	),
+	url("../img/coffe.jpg");
+	background-size:cover;
+	background-position:center;
+ }
+ .navbar{
+	 height:10%;
+	 display:flex;
+ }
+.nav_left{
+	flex-basis:30%;
+	background:white;
+	position:relative;
+}
+.icon{
+	left:5%;
+	top:15%;
+	position:absolute;
+}
+.icon ul li{
+	display:inline-block;
+	color:gray;
+	margin-right:16px;
+}
+.nav_right{
+	flex-basis:70%;
+	position:relative;
+}
+.manu{
+	top:20%;
+	right:5%;
+	position:absolute;
+}
+.manu ul li a{
+	text-decoration:none;
+	color:white;
+}
+.manu ul li a:hover{
+     border-bottom:1px solid brown;
+	 padding-bottom:5px;
+}
+.manu ul li{
+	display:inline-block;
+	margin-left: 15px;
+}
+.logo{
+	font-family: 'Lobster', cursive !important;
+	font-size:40px;
+}
+.content{
+	height:90%;
+	display:flex;
+}
+.content_left{
+	flex-basis:30%;
+	background:white;
+	position:relative;
+}
+.socil{
+	left:5%;
+	bottom:10%;
+	position:absolute;
+}
+.socil ul li{
+	list-style:none;
+	height:30px;
+	width:30px;
+	margin:10px;
+	text-align:center;
+	line-height:30px;
+	background:gray;
+}
+.socil ul li i:hover{
+	color:blue;
+}
+.socil ul li i{
+	color:white;
+}
+.content_right{
+	flex-basis:70%;
+	position:relative;
+}
+
+.text{
+	bottom:9%;
+	right:20%;
+	position:absolute;
+}
+.text h1{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	font-size:50px;
+}
+.text p{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	font-size:20px;
+}
+.display{
+	left:-25%;
+	bottom:10%;
+	position:absolute;
+}
+.display img{
+	height:55%;
+	width:40%;
+}
